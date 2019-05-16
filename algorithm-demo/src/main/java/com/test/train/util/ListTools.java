@@ -28,4 +28,12 @@ public class ListTools {
         System.out.println(str + Arrays.toString(array));
     }
 
+    public static void printBeforeSort(int[] array){
+        printArrays("排序前：",array);
+    }
+
+    public static void printAfterSort(int[] array){
+        printArrays("排序后：",array);
+    }
+
 }
