@@ -20,7 +20,7 @@ public class ListTools {
 
     public static int[] creatArray(){
         int[] result = new int[30];
-        IntStream.range(1,30).forEach(i -> result[i-1] = i + new Random().nextInt(50));
+        IntStream.range(-30,30).forEach(i -> result[i-1] = i + new Random().nextInt(50));
         return result;
     }
 
